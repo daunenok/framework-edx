@@ -1,0 +1,172 @@
+nav .logo .link-button {
+	line-height: 40px;
+	margin: 10px 30px 0;
+}
+nav .logo a {
+	float: left;
+}
+
+
+.main1, .main2 {
+	background: url("images/home1.jpg") top right/cover;
+	box-sizing: border-box;
+	padding: 30px 40px;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	align-items: flex-start;
+}
+.main2 {
+	background: url("images/home2.jpg") top right/cover;
+}
+.main2 .link-button {
+	background-color: #cc0099;
+}
+.main2 .link-button:hover {
+	background-color: #ff4dff;
+}
+
+
+.universities {
+	justify-content: space-around;
+}
+
+
+.edx-programs, .popular-courses {
+	background-color: #eee;
+	align-items: center;
+	justify-content: space-around;
+}
+
+
+.edx-courses, .popular {
+	background-color: #eee;
+}
+.edx-courses p {
+	padding: 0 10px;
+}
+
+
+.popular-courses {
+	padding-top: 40px;
+}
+
+
+.popular .mark {
+	background-color: #008800;
+}
+.popular .course {
+	border-bottom: 3px solid #008800;
+}
+
+
+.learning  {
+	justify-content: center;
+}
+
+
+.learning-edx img {
+	float: left;
+	width: 32px;
+	margin-right: 10px;
+	margin-top: 20px;
+}
+
+
+.lives {
+	background-color: #eee;
+}
+.lives a.link-button {
+	margin: 30px;
+}
+.lives .blog-posts a.link-common {
+	border-bottom: 1px solid #000;
+	padding: 20px 0;
+}
+
+
+.get {
+	background-color: #777;
+	color: #fff;
+	justify-content: space-around;
+	align-items: center;
+	min-height: 80px;
+}
+.get p {
+	font-size: 140%;
+}
+.get input {
+	height: 30px;
+	border-radius: 5px;
+	border: 0;
+}
+
+
+footer div:nth-child(2) a {
+	float: left;
+	margin-right: 40px;
+	margin-bottom: 10px;
+}
+footer div:nth-child(3) a {
+	float: left;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+footer div:nth-child(4) {
+	text-align: center;
+	margin: 10px 30px 20px;
+}
+
+@media screen and (max-width:1200px) {
+	.main h1 {
+		font-size: 180%;
+	}
+	.main .link-button {
+		font-size: 110%;
+	}
+	.learning-edx a.link-common {
+		display: none;
+	}
+	.learning-edx a.link-learning {
+		float: left;
+		width: 150px;
+		margin-top: 20px;
+	}
+	.learning-edx p  {
+		margin-left: 160px;
+	}
+	.get a.link-button {
+		font-size: 100%;
+		padding-right: 20px;
+		padding-left: 20px;
+	}
+}
+
+
+@media screen and (max-width:800px) {
+	.edx-programs .link-button, .popular-courses .link-button {
+		display: none;
+	}
+}
+ 
+
+@media screen and (max-width: 550px) {
+	nav .logo .link-button {
+		display: none;
+	}
+	h2 {
+		font-size: 150%;
+	}
+	.learning-edx a.link-learning {
+		width: 300px;
+		max-width: 70%;
+	}
+	.lives a.link-button {
+		font-size: 100%;
+		padding: 5px 15px;
+	}
+	.get input {
+		margin-bottom: 20px;
+	}
+}
